@@ -3,8 +3,11 @@ import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import { AppBar, Toolbar, Typography, Button, Container, CssBaseline } from "@mui/material";
 import Home from "./components/Home";
 import About from "./components/About";
+<<<<<<< HEAD
 import SendEmail from "./components/SendEmail";
 
+=======
+>>>>>>> 86bac17867241a8b920dc73221fdec8d6f597b22
 
 function App() {
   return (
@@ -21,8 +24,11 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+<<<<<<< HEAD
           <Route path="/send" element={<SendEmail />} />
           
+=======
+>>>>>>> 86bac17867241a8b920dc73221fdec8d6f597b22
         </Routes>
       </Container>
     </Router>
