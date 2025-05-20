@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to top right, #3e1c92, #a97bdc);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('C:\Users\garima kothari\Desktop\myapp\frontend\public\photo-1553356084-58ef4a67b2a7.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.register-page {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-box {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(15px);
+  border-radius: 15px;
+  padding: 30px;
+  width: 300px;
+  color: white;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.register-box h2 {
+  margin-bottom: 20px;
+}
+
+.input-group {
+  position: relative;
+  margin: 20px 0;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px 40px 12px 15px;
+  border: none;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  outline: none;
+}
+
+.input-group .icon {
+  position: absolute;
+  right: 15px;
+  top: 12px;
+  color: white;
+}
+
+.register-btn {
+  width: 100%;
+  padding: 10px;
+  background: white;
+  border: none;
+  border-radius: 25px;
+  color: #5e2ca5;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.register-btn:hover {
+  background: #ddd;
+}
+
+.register-box p {
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+.register-box a {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}

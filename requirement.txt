@@ -1,0 +1,8 @@
+flask
+requests
+pycryptodome
+rsa
+sympy
+imap-tools
+flask-cors
+
