@@ -1,0 +1,76 @@
+.inbox-container {
+  padding: 40px;
+  font-family: 'Poppins', sans-serif;
+  background: #f4f4f4;
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.back-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+
+.message-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.message-card h3 {
+  margin: 0 0 10px 0;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+.delete-btn {
+  background: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  float: right;
+}
+
+
+
+.inbox-container {
+  background-image: url('/gettyimages-1157048373.png');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 40px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+.message-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
