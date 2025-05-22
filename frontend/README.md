@@ -113,4 +113,8 @@ This project is licensed under the MIT License.
 📧 Email: upasanaghughtyal@gmail.com
 🐙 GitHub: upasana1927
 
+🤝 Contact
+📧 Email: kotharigarima2005@gmail.com
+🐙 GitHub: kotharigarima2
+
 This version keeps the explanation clean and technical without code snippets. Let me know if you need any further modifications! 🚀🔥
