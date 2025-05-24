@@ -63,49 +63,37 @@ CryptX is a secure email communication platform that ensures privacy using RSA e
 🔧 Backend Setup
 Navigate to the backend directory:
 
-bash
-Copy
-Edit
-cd backend
-Create virtual environment and install dependencies:
+-- Create virtual environment and install dependencies:
+    python -m venv rsa
+    rsa\Scripts\activate   
+    pip install -r requirements.txt
 
-bash
-Copy
-Edit
-python -m venv rsa
-rsa\Scripts\activate   # For Windows
-pip install -r requirements.txt
-Run the Flask app:
+    cd backend
+-- Run the Flask app:
+    python app.py
 
-bash
-Copy
-Edit
-python app.py
 💻 Frontend Setup
 Navigate to frontend directory:
 
-bash
-Copy
-Edit
-cd frontend
-Install dependencies:
+    cd frontend
 
-bash
-Copy
-Edit
-npm install
-Start the Vite dev server:
+-- Install dependencies:
+    npm install
 
-bash
-Copy
-Edit
-npm run dev
+-- Start the Vite dev server:
+    npm start
+
+---    
+
 🔒 Security Note
 RSA encryption keys are generated per session/user for maximum security
 
 Messages are encrypted before sending and decrypted after receiving
 
 No plaintext messages are stored or transmitted
+
+---
+
 
 👩‍💻 Author
 Upasana Ghughtyal
