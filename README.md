@@ -80,7 +80,7 @@ Navigate to frontend directory:
 -- Install dependencies:
     npm install
 
--- Start the Vite dev server:
+-- Start the server:
     npm start
 
 ---    
