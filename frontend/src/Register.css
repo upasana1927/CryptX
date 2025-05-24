@@ -1,3 +1,5 @@
+register.css 
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
 * {
@@ -8,15 +10,41 @@ body, html {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
-  background: linear-gradient(to top right, #3e1c92, #a97bdc);
   height: 100vh;
-  display: flex;
+
   justify-content: center;
   align-items: center;
-  background-image: url('C:\Users\garima kothari\Desktop\myapp\frontend\public\photo-1553356084-58ef4a67b2a7.jpeg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  
+  /* Animated Gradient Background */
+  background: linear-gradient(-45deg, 
+    #ff3d77, 
+    #5843be, 
+    #00dbde, 
+    #ff3d77);
+  background-size: 400% 400%;
+  animation: gradientBG 12s ease infinite;
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.register-box {
+  /* Glass Morphism Effect */
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+  
+  /* Other existing styles */
+  padding: 30px;
+  width: 300px;
+  color: white;
+  text-align: center;
 }
 
 .register-page {
@@ -25,6 +53,7 @@ body, html {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 150px;
 }
 
 .register-box {
@@ -36,6 +65,7 @@ body, html {
   color: white;
   box-shadow: 0 0 20px rgba(0,0,0,0.2);
   text-align: center;
+  
 }
 
 .register-box h2 {
