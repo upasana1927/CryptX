@@ -2,17 +2,21 @@ from Crypto.PublicKey import RSA
 from Crypto.Cipher import PKCS1_OAEP
 import base64
 import os
+from generate import generate_keys
 
 # Generate keys only if they don't exist
 if not os.path.exists("private.pem") or not os.path.exists("public.pem"):
-    key = RSA.generate(2048)
-    private_key = key.export_key()
-    with open("private.pem", "wb") as f:
-        f.write(private_key)
+    generate_keys()
 
-    public_key = key.publickey().export_key()
-    with open("public.pem", "wb") as f:
-        f.write(public_key)
+
+# Generate keys only if they don't exist
+#   key = RSA.generate(2048)
+#   with open("private.pem", "wb") as f:
+ #       f.write(private_key)
+#
+ #   public_key = key.publickey().export_key()
+  #  with open("public.pem", "wb") as f:
+   #     f.write(public_key)
 
 # Load RSA Keys
 with open("private.pem", "rb") as priv_file:
